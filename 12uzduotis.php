@@ -1,1 +1,1 @@
-SELECT * FROM imones desc limit 5
+SELECT * FROM imones order by kliento_registravimo_data desc limit 5
