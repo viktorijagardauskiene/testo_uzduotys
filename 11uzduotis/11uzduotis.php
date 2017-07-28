@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>11 uzduotis</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-</head>
-<body>
-	<div class="container">
-		<div class="row">
-			<form>
-			
-		</div>
-		
-	</div>
+<?php
+
+session_start();
+print_r($_SESSION);
+
+if (isset($_POST['pavadinimas'] && $_POST['kodas']) && $_POST['pavadinimas'] !=null && $_POST['pavadinimas'] !=null) {
+	
+} else {
+	echo 'Error';
+} 
 
 
-</body>
-</html>
+
+
+
+
+
