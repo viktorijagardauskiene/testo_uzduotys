@@ -4,20 +4,22 @@
 
 class Person {
 
-	private $name;
-	private $surname;
-	private $age;
+	public $name;
+	public $surname;
+	public $age;
 	
-	function __construct()
-	{
+	function __construct()	{
 		$this->name = 'Viktorija';
 		$this->surname = 'Gardauskienė';
 		$this->age = '30';
 	}
 
-
+	public function asmensDuomenys() {
+		echo "$this->name $this->surname ($this->age)";
+	}
 }
 
 
 $person = new Person();
-	print_r($person);
+$person->asmensDuomenys();
+	
